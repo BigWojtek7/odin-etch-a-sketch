@@ -8,15 +8,15 @@
 }
 
 .container {
-  width: 502px;
-  height: 502px;
+  width: 602px;
+  height: 602px;
   border: 1px solid #3882f6;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.child {
+.square {
   border: 1px solid #3882f6;
   width: 20px;
   height: 20px;
