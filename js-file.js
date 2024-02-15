@@ -1,12 +1,7 @@
 const container = document.querySelector(".container");
-
-
-
-createGrid()
-
 const btn = document.querySelector(".btn");
 
-
+createGrid()
 
 btn.addEventListener("click", () => {
   squaresSize = parseInt(prompt("Please enter grid size", "1-100"));
@@ -17,11 +12,9 @@ btn.addEventListener("click", () => {
 
 });
 
-
 function createGrid (squaresSize = 16){
   if (squaresSize < 1 || squaresSize > 100){
     alert("Input incorrect. Setting default 16 grid")
-    // document.querySelector(".text").textContent = "Input incorrect. Setting default 16 grid";
     squaresSize = 16;
   }
 
